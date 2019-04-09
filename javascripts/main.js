@@ -1,1 +1,13 @@
-console.log('inside main');
+
+
+import store from './componeants/store.js';
+
+
+
+
+const init = () => {
+store.makeStore();
+
+};
+
+init();
